@@ -3,6 +3,7 @@ import React from 'react'
 import style from "./Contact.module.css"
 import CallComponent from '../callComponent/callComponent'
 import BtnsComponents from '../btnComponent/btnsComponents'
+import FormComponent from '../formComponent/formComponent'
 
 const ContactComponent = () => {
 	return (
@@ -22,8 +23,8 @@ const ContactComponent = () => {
 					<BtnsComponents word={"Browse our packages"} status={"light"}/>
 				</div>
 				<div className={style["right"]}>
-					
-				</div>
+						<FormComponent/>
+				</div>		
 			</div>
 		</div>
 	)
