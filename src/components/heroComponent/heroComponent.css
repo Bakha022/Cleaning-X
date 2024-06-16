@@ -1,0 +1,39 @@
+.hero-left h2 {
+	width: 518px;
+	font-family: Roboto;
+	font-size: 68px;
+	font-weight: 700;
+	line-height: 73.98px;
+	color: #211F54;
+}
+
+.hero-text	 {
+	width: 591px;
+	margin-top: 22px;
+	font-family: Roboto;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 30.01px;
+	color: #6E7191;
+}
+
+.hero-row {
+	margin-top: 44px;
+}
+
+.hero-left {
+	margin-top: 230px;
+}
+
+
+.heroImg {
+	position: absolute;
+	right: 0;
+	top: 120px;
+}
+
+
+.hero-row {
+	display: flex;
+	gap: 28px;
+}
