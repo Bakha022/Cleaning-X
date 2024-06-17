@@ -1,11 +1,73 @@
 .contact-component {
 	margin-top: 403px;
 	width: 100%;
-	padding: 131px 108px;
+	padding-top: 131px;
+	padding-bottom: 113px;
 	background-color: #F7F9FC;
 }
 
 
+.contact-row {
+	display: flex;
+	gap: 60px;
+}
+
+.left {
+	margin-top: 22px;
+}
+
 .right {
 	width: 673px;
+}
+
+
+
+.contact-title {
+	font-family: Roboto;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 57.98px;
+	text-align: left;
+	color: #211F54;
+}
+
+
+.contact-subtitle {
+	margin-top: 32px;
+	margin-bottom: 32px;
+	font-family: Roboto;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 30.01px;
+	text-align: left;
+	color: #6E7191;
+}
+
+
+.line {
+	margin-top: 30px;
+	height: 1px;
+	background-color: #DCDDEB;
+	width: 100%;
+}
+
+
+.left-title {
+	margin-top: 55px;
+	font-family: Roboto;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 36.01px;
+	color: #211F54;
+}
+
+.left-subtitle {
+	margin-top: 9px;
+	margin-bottom: 30px;
+	font-family: Roboto;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 30.01px;
+	text-align: left;
+	color: #6E7191;
 }

@@ -1,20 +1,28 @@
 import React from 'react'
-import NavbarComponents from '../components/navbar/navbarComponents'
-import HeroComponent from '../components/heroComponent/heroComponent'
 import AboutComponent from '../components/aboutComponent/aboutComponent'
-import ServicesComponent from '../components/servicesComponent/servicesComponent'
-import PosterComponent from '../components/posterComponent/posterComponent'
 import ArticelComponent from '../components/articelsComponent/articleComponent'
+import FooterComponent from '../components/footer/footerComponent'
+import HeroComponent from '../components/heroComponent/heroComponent'
+import NavbarComponents from '../components/navbar/navbarComponents'
+import PosterComponent from '../components/posterComponent/posterComponent'
+import ContactComponent from '../components/contactComponent/contactComponent'
+import ServicesComponent from '../components/servicesComponent/servicesComponent'
 
 const Home = () => {
 	return (
-		<section className='container'>
-			<NavbarComponents />
-			<HeroComponent/>
-			<AboutComponent/>
-			<ServicesComponent/>	
-			<PosterComponent/>
-			<ArticelComponent/>
+		<section className='cleaning'>
+			<div className="container">
+				<NavbarComponents />
+				<HeroComponent />
+				<AboutComponent />
+				<ServicesComponent />
+				<PosterComponent />
+				<ArticelComponent />
+			</div>
+      <ContactComponent/>
+			<div className="conatiner">
+				<FooterComponent/>
+			</div>
 		</section>
 	)
 }
