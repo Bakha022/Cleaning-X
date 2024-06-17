@@ -2,6 +2,8 @@ import React from 'react'
 
 import { FaFacebook, FaGithub, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa6"
 import BtnsComponents from '../btnComponent/btnsComponents'
+
+import logo from '../../assets/imgs/IMAGE.svg'
 import style from './Footer.module.css'
 
 
@@ -66,7 +68,9 @@ const FooterComponent = () => {
 								Lorem ipsum dolor sit amet ectetur adipiscing elit, sed do eiusmod.
 							</p>
 						</div>
+						<div className={style['footer-btn']}>
 						<BtnsComponents word={"Request a free quote"} status={"primary"} />
+						</div>
 					</div>
 				</div>
 
@@ -74,7 +78,22 @@ const FooterComponent = () => {
 
 			<div className={style["line"]}></div>
 			<div className={style["footerEnd"]}>
-
+				<div className="row">
+					<div className="logo">
+						<a href="#home">
+							<img src={logo} alt="logo" />
+						</a>
+					</div>
+					<div className={style["footer-info"]}>
+						<p className={style["texts"]}>
+							Copyright © Cleaning X | Designed by
+						</p>
+						<a href="#home">BRIX Templates</a>
+						<p className={style["texts"]}>- Powered by</p>
+						<a target='_blank' href="https://t.me/abdukakhkhorov_bakhodir">BakhaDev</a>
+						<p className={style["texts"]}>-Licenses</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	)

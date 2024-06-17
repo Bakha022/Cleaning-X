@@ -3,7 +3,7 @@ import React from 'react'
 import BtnsComponents from '../btnComponent/btnsComponents'
 
 import './navbarComponents.css'
-import logo from '../../assets/imgs/IMAGE.png'
+import logo from '../../assets/imgs/IMAGE.svg'
 
 
 

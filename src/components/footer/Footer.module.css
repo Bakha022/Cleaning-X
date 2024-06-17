@@ -1,5 +1,6 @@
 .footerStart {
 	margin-top: 140px;
+	margin-bottom: 140px;
 }
 
 
@@ -54,6 +55,17 @@
 	font-size: 36px;
 	background-color: white;
 	color: #0075FF;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	transition: .33s;
+
+}
+
+
+.rectangle:hover {
+	transition: .33s;
+	transform: scale(1.05);
 }
 
 
@@ -72,16 +84,71 @@
 	display: flex;
 	flex-direction: column;
 	gap: 18px;
-}	
+}
 
 
 .col-first-date h3 {
 	margin-top: 5px;
 	margin-bottom: 8px;
 	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: left;
+	color: #211F54;
+}
+
+
+.phone-number {
+	font-family: Roboto;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 36.01px;
+	text-align: left;
+	color: #0075FF;
+	text-decoration: none;
+}
+
+
+.call-text {
+	margin-top: 6px !important;
+}
+
+
+.footer-btn {
+	margin-top: 16px;
+}
+
+
+.line {
+	height: 1px;
+	width: 100%;
+	background-color: #DCDDEB;
+}
+
+
+.footerEnd {
+	padding: 40px 0;
+}
+
+
+.footer-info {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.texts, a {
+	font-family: Roboto;
 font-size: 18px;
-font-weight: 700;
-line-height: 20px;
-text-align: left;
-color: #211F54;
+font-weight: 400;
+line-height: 30.01px;
+text-align: right;
+color: #6E7191;
+}
+
+
+.footer-info a {
+	text-decoration: none;
+	color: #0075FF;
 }
