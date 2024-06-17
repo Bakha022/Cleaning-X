@@ -7,9 +7,9 @@ import CallComponent from '../callComponent/callComponent'
 
 const PosterComponent = () => {
 	return (
-		<>
+		<section className='container'>
 		<div className={style["poster"]}>
-			<div className="row">
+			<div className={style["row"]}>
 				<div className={style["left"]}>
 						<img src={posterImg} alt="poster-img" />
 				</div>
@@ -31,7 +31,7 @@ const PosterComponent = () => {
 			</div>
 		</div>
 		<div className={style["line"]}></div>
-		</>
+		</section>
 	)
 }
 

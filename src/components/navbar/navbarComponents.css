@@ -4,7 +4,10 @@ nav {
 }
 
 
-.row, .list_item, .nav-left, .nav-right  {
+.row,
+.list_item,
+.nav-left,
+.nav-right {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -35,10 +38,29 @@ nav {
 	gap: 24px;
 }
 
-.nav-left p {
+.nav-cart-btn {
+	border: none;
+	background: none;
+	cursor: pointer;
 	font-family: Roboto;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 30.01px;
 	color: #211F54;
+	padding: 10px;
+	transition: .5s;
+}
+
+.nav-cart-btn:hover {
+	border-radius: 20px;
+	box-shadow: 0px 4px 10px 0px #14142b1f;
+transition: .5s;
+}
+
+
+
+@media (max-width: 1024px) {
+	.navBtn {
+		display: none;
+	}
 }

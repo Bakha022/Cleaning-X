@@ -9,7 +9,8 @@ import aboutInfo from '../../constants/about.js'
 
 const AboutComponent = () => {
 	return (
-		<div className='aboutContent'>
+		<section className='container'> 
+			<div id='about' className='aboutContent'>
 			<h1 className='about-title'>About Us</h1>
 			<p className='about-subtitle'>
 				Sagittis nibh scelerisque vitae eget vulputate sem elementum sed neque nisi felis non ultrices massa id egestas quam velit pretium nu.
@@ -25,7 +26,8 @@ const AboutComponent = () => {
 				<BtnsComponents  word={"Get a free quote"} status={"primary"}/>
 				<BtnsComponents  word={"Explore services"} status={"light"}/>
 			</div>
-		</div>
+		</div>	
+		</section>
 	)
 }
 

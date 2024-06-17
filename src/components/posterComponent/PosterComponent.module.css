@@ -11,6 +11,7 @@
 
 
 
+
 .right {
 	width: 556px;
 }
@@ -51,6 +52,13 @@
 	gap: 28px;
 }
 
+.row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
 
 .line {
 	margin-top: 156px;
@@ -58,4 +66,29 @@
 	width: 100%;
 	height: 1px;
 	background-color: #DCDDEB;
+}
+
+
+
+
+@media (max-width: 1440px) {
+	.poster {
+		padding-right: 25px;
+	}
+
+	.left img {
+		width: 400px;
+	}
+}
+
+
+@media (max-width: 1024px) {
+	.row {
+		justify-content: center;
+		gap: 50px;
+	}
+
+	.poster {
+		padding-bottom: 50px;
+	}
 }

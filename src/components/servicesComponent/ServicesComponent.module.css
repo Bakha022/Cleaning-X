@@ -59,3 +59,19 @@
 	color: #6E7191;
 	text-align: center;
 }
+
+
+@media (max-width: 1440px) {
+	.row-2 {
+		gap: 30px;
+	}
+}
+
+
+@media (max-width: 1024px) {
+	.row-2 {
+		flex-wrap: wrap;
+		gap: 30px;
+		justify-content: center;
+	}
+}

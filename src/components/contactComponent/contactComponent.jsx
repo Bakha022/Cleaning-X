@@ -7,7 +7,7 @@ import style from "./Contact.module.css"
 
 const ContactComponent = () => {
 	return (
-		<div className={style["contact-component"]}>
+		<div id='contact' className={style["contact-component"]}>
 			<div className="container">
 				<div className={style['contact-row']}>
 					<div className={style["left"]}>

@@ -17,19 +17,23 @@ const FooterComponent = () => {
 						<p>Lorem ipsum dolor sit amet cteturdo adipiscing elit, sed do eiusmo.</p>
 						<div className={style["col-rectangle"]}>
 							<div className={style["rectangle"]}>
-								<FaInstagram />
+								<a target='_blank' href="https://instagram.com">
+									<FaInstagram />
+								</a>
 							</div>
 							<div className={style["rectangle"]}>
-								<FaTwitter />
+								<a target='_blank' href="https://x.com/">
+									<FaTwitter />
+								</a>
 							</div>
 							<div className={style["rectangle"]}>
-								<FaGithub />
+								<a target='_blank' href="https://github.com"><FaGithub /></a>
 							</div>
 							<div className={style["rectangle"]}>
-								<FaFacebook />
+								<a target='_blank' href="https://facebook.com"><FaFacebook /></a>
 							</div>
 							<div className={style["rectangle"]}>
-								<FaYoutube />
+								<a target='_blank' href="https://youtube.com"><FaYoutube /></a>
 							</div>
 						</div>
 					</div>
@@ -78,7 +82,7 @@ const FooterComponent = () => {
 
 			<div className={style["line"]}></div>
 			<div className={style["footerEnd"]}>
-				<div className="row">
+				<div className={style["row"]}>
 					<div className="logo">
 						<a href="#home">
 							<img src={logo} alt="logo" />
@@ -88,10 +92,14 @@ const FooterComponent = () => {
 						<p className={style["texts"]}>
 							Copyright © Cleaning X | Designed by
 						</p>
+						<div className={style["row"]}>
 						<a href="#home">BRIX Templates</a>
 						<p className={style["texts"]}>- Powered by</p>
+						</div>
+						<div className={style["row"]}>
 						<a target='_blank' href="https://t.me/abdukakhkhorov_bakhodir">BakhaDev</a>
 						<p className={style["texts"]}>-Licenses</p>
+						</div>
 					</div>
 				</div>
 			</div>

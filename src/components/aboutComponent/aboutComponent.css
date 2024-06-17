@@ -68,3 +68,13 @@ line-height: 30.01px;
 text-align: center;
 color: #6E7191;
 }
+
+
+
+
+@media (max-width: 1440px) {
+	.about-row {
+		justify-content: center;
+		gap: 50px;
+	}
+}
