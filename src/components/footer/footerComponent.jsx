@@ -45,30 +45,34 @@ const FooterComponent = () => {
 					<div className={style["col-3"]}>
 						<h2>Hours</h2>
 						<div className={style['footer-col-texts']}>
-						<div className={style["col-first-date"]}>
-							<h3>Monday to Friday</h3>
-							<p>6:00 AM - 9:00 PM</p>
-						</div>
-						<div className={style["col-second-date"]}>
-							<h3>Saturday & Sunday</h3>
-							<p>8:00 AM - 8:00 PM</p>
-						</div>
+							<div className={style["col-first-date"]}>
+								<h3>Monday to Friday</h3>
+								<p>6:00 AM - 9:00 PM</p>
+							</div>
+							<div className={style["col-first-date"]}>
+								<h3>Saturday & Sunday</h3>
+								<p>8:00 AM - 8:00 PM</p>
+							</div>
 						</div>
 					</div>
 
 					<div className={style["col-3"]}>
 						<h2>Get a free estimate</h2>
-						<a className={style["phone-number"]} href='tel:994853117'>
-							(414) 567 - 2109
-						</a>
-						<p className={style["call-text"]}>
-							Lorem ipsum dolor sit amet ectetur adipiscing elit, sed do eiusmod.
-						</p>
+						<div className={style["footer-col-texts"]}>
+							<a className={style["phone-number"]} href='tel:994853117'>
+								(414) 567 - 2109
+							</a>
+							<p className={style["call-text"]}>
+								Lorem ipsum dolor sit amet ectetur adipiscing elit, sed do eiusmod.
+							</p>
+						</div>
 						<BtnsComponents word={"Request a free quote"} status={"primary"} />
 					</div>
 				</div>
 
 			</div>
+
+			<div className={style["line"]}></div>
 			<div className={style["footerEnd"]}>
 
 			</div>

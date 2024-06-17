@@ -73,3 +73,15 @@
 	flex-direction: column;
 	gap: 18px;
 }	
+
+
+.col-first-date h3 {
+	margin-top: 5px;
+	margin-bottom: 8px;
+	font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+color: #211F54;
+}
