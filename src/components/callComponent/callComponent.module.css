@@ -32,12 +32,12 @@
 
 .call-text {
 	font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 1.600000023841858px;
-margin-top: 6px;
-color: #6E7191;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 1.600000023841858px;
+	margin-top: 6px;
+	color: #6E7191;
 }
 
 
@@ -48,4 +48,35 @@ color: #6E7191;
 	line-height: 36.01px;
 	color: #211F54;
 	margin-top: 4px;
+}
+
+
+@media (max-width: 456px) {
+	.call-row {
+		align-items: center;
+	}
+
+	.call-row .fa-phone {
+		/* font-size: 72px; */
+		width: 50px;
+		text-align: center;
+		border-radius: 50%;
+		padding: 9px;
+		border: 1px solid #DCDDEB;
+		background: white;
+		cursor: pointer;
+		transition: .5s;
+	}
+
+	.call-icon {
+		font-size: 26px;
+	}
+
+	.call-text {
+		font-size: 12px;
+	}
+
+	.call-number {
+		font-size: 16px;
+	}
 }

@@ -73,7 +73,7 @@ const FooterComponent = () => {
 							</p>
 						</div>
 						<div className={style['footer-btn']}>
-						<BtnsComponents word={"Request a free quote"} status={"primary"} />
+							<BtnsComponents word={"Request a free quote"} status={"primary"} />
 						</div>
 					</div>
 				</div>
@@ -93,12 +93,12 @@ const FooterComponent = () => {
 							Copyright © Cleaning X | Designed by
 						</p>
 						<div className={style["row"]}>
-						<a href="#home">BRIX Templates</a>
-						<p className={style["texts"]}>- Powered by</p>
+							<a href="#home">BRIX Templates</a>
+							<p className={style["texts"]}>- Powered by</p>
 						</div>
 						<div className={style["row"]}>
-						<a target='_blank' href="https://t.me/abdukakhkhorov_bakhodir">BakhaDev</a>
-						<p className={style["texts"]}>-Licenses</p>
+							<a target='_blank' href="https://t.me/abdukakhkhorov_bakhodir">BakhaDev</a>
+							<p className={style["texts"]}>-Licenses</p>
 						</div>
 					</div>
 				</div>

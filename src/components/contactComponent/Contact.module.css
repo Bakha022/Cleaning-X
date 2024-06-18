@@ -79,3 +79,27 @@
 		flex-wrap: wrap;
 	}
 }
+
+
+@media (max-width: 456px) {
+	.contact-title {
+		font-size: 26px;
+	}
+
+	.contact-subtitle {
+		margin: 10px 0;
+		font-size: 18px;
+	}
+
+	.left-title {
+		font-size: 24px;
+	}
+
+	.left-subtitle {
+		font-size: 18px;
+	}
+
+	.right {
+		width: 100%;
+	}
+}

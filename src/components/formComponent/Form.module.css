@@ -63,3 +63,37 @@ form textarea {
 	background-color: white;
 	padding: 15px;
 }
+
+
+
+@media (max-width: 456px) {
+	form {
+		padding: 20px;
+	}
+	.input-items input {
+		width: 240px;
+		height: 50px;
+		font-size: 14px;
+	}
+
+	.inputList {
+		display: flex;
+		flex-direction: column;
+	}
+
+	form textarea {
+		width: 240px;
+	}
+
+	form label {
+		font-size: 14px;
+	}
+}
+
+
+
+@media (max-width: 718px) {
+	form {
+		padding: 20px;
+	}
+}

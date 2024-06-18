@@ -16,7 +16,6 @@
 	transform: scale(1.05);
 	transition: 0.5s;
 	box-shadow: 0px 4px 10px 0px #14142b1f;
-
 }
 
 
@@ -24,7 +23,6 @@
 	background-color: #0075FF;
 	color: white;
 	height: 72px;
-
 }
 
 
@@ -35,4 +33,23 @@
 	border: 1px solid #EFF0F6;
 	box-shadow: 0px 4px 10px 0px #14142B0A;
 
+}
+
+
+@media (max-width: 1024px) {
+	.BtnComponent {
+		dis
+	}
+}
+
+@media (max-width:456px) {
+	.BtnComponent {
+		padding: 0;
+		width: 164px;
+		font-size: 12px;
+	}
+
+	.BtnComponent.light, .BtnComponent.primary {
+		height: 50px;
+	}
 }

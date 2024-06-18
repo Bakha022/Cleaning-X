@@ -119,3 +119,36 @@
 		gap: 10px;
 	}
 }
+
+@media (max-width: 456px) {
+	.card {
+		top: 140px;
+		width: 280px;
+		padding: 20px;
+	}
+.article-title {
+	font-size: 26px;
+  width: 100%;
+}
+
+.article-main {
+	gap: 350px;
+	padding-bottom: 200px;
+}
+.card-title {
+	font-size: 20px;
+}
+
+.card-text {
+	font-size: 14px;
+}
+
+.card-date {
+	font-size: 14px;
+}
+
+.card-rectangle {
+		width: 30px;
+		height: 30px;
+}
+}

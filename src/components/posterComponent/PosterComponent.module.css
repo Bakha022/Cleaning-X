@@ -92,3 +92,48 @@
 		padding-bottom: 50px;
 	}
 }
+
+@media (max-width: 456px) {
+	/* .poster {
+		display: none;
+	} */
+
+	.posterFirst-text {
+		font-size: 14px;
+		text-align: center;
+	}
+	.right {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.posterSecond-text {
+		font-size: 18px;
+		margin-top: 0;
+		width: 200px;
+		text-align: center;
+	}
+	.btns {
+		display: flex;
+		flex-direction: column;
+		align-items: center	;
+	}
+	.poster-title {
+		width: 200px;
+		font-size: 26px;
+		text-align: center;
+	}
+	.poster {
+		padding-right: 0;
+		padding-bottom: 20px;
+	}
+	.left img {
+		width: 200px;
+	}
+	.row {
+		justify-content: center;
+	}
+	.right {
+		width: 350px;
+	}
+}
