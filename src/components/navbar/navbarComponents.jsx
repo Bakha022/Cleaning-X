@@ -15,40 +15,6 @@ const NavbarComponents = () => {
 
 	return (
 		<div className="container">
-			{/* <nav>
-				<div className="row">
-					<div className="nav-right">
-						<div className="logo">
-							<a href="#home">
-								<img src={logo} alt="logo" />
-							</a>
-						</div>
-						<ul className="list_item">
-							<li className="list_items">
-								<a className="list_items_link" href="#home">Home</a>
-							</li>
-							<li className="list_items">
-								<a className="list_items_link" href="#about">About</a>
-							</li>
-							<li className="list_items">
-								<a className="list_items_link" href="#services">Services</a>
-							</li>
-							<li className="list_items">
-								<a className="list_items_link" href="#articels">Articles</a>
-							</li>
-							<li className="list_items">
-								<a className="list_items_link" href="#contact">Contact</a>
-							</li>
-						</ul>
-					</div>
-					<div className="nav-left">
-						
-						<div className="navBtn">
-						
-						</div>
-					</div>
-				</div>
-			</nav> */}
 			<nav>
 				<div className="logo">
 					<img src={logo} alt="logo" />
